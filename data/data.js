@@ -1,4 +1,4 @@
-subdata = {
+data = {
     subs: {
         "TyranasaurusDad": 69,
         "aronicco":1
