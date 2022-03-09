@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.row{
+    color: white;
+}
+
+h2{
+    color: white;
+    margin:0;
+}
+
+p {
+    margin:0.5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: url('../background.jpg');
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
